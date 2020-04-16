@@ -31,7 +31,9 @@ public class MainController {
             return true;
         }
         //Check a crossing moving
-        else if(originCoor.getX_pos() - destCoor.getX_pos() == originCoor.getY_pos() - destCoor.getY_pos() && Math.abs(originCoor.getY_pos() - destCoor.getY_pos()) == 1){
+        else if((originCoor.getX_pos() - destCoor.getX_pos() == originCoor.getY_pos() - destCoor.getY_pos()
+                || originCoor.getX_pos() - destCoor.getX_pos() == destCoor.getY_pos() - originCoor.getY_pos())
+                && Math.abs(originCoor.getY_pos() - destCoor.getY_pos()) == 1){
 
             //Move it
             origin.select();
@@ -40,15 +42,6 @@ public class MainController {
             return true;
         }
 
-        //Check a crossing jumping
-        else if(originCoor.getX_pos() - destCoor.getX_pos() == originCoor.getY_pos() - destCoor.getY_pos() && Math.abs(originCoor.getY_pos() - destCoor.getY_pos()) == 2){
-
-            //The pos of the frog between
-            int middleSquarePos = (new Coordinate2D((originCoor.getX_pos()+destCoor.getX_pos())/2,(originCoor.getY_pos()+destCoor.getY_pos())/2)).convert2OneD();
-
-            //return the success of green frog removing
-            return removeFrog(middleSquarePos, motherBoard, origin, dest);
-        }
         //Check a horizontal jumping
         else if(Math.abs(originCoor.getX_pos()-destCoor.getX_pos()) == 4 && originCoor.getY_pos() == destCoor.getY_pos()){
 
@@ -64,6 +57,18 @@ public class MainController {
 
             //The pos of the frog between
             int middleSquarePos = (new Coordinate2D(originCoor.getX_pos(),(destCoor.getY_pos()+originCoor.getY_pos())/2)).convert2OneD();
+
+            //return the success of green frog removing
+            return removeFrog(middleSquarePos, motherBoard, origin, dest);
+        }
+
+        //Check a crossing jumping
+        else if((originCoor.getX_pos() - destCoor.getX_pos() == originCoor.getY_pos() - destCoor.getY_pos()
+                ||originCoor.getX_pos() - destCoor.getX_pos() == destCoor.getY_pos() - originCoor.getY_pos())
+                && Math.abs(originCoor.getY_pos() - destCoor.getY_pos()) == 2){
+
+            //The pos of the frog between
+            int middleSquarePos = (new Coordinate2D((originCoor.getX_pos()+destCoor.getX_pos())/2,(originCoor.getY_pos()+destCoor.getY_pos())/2)).convert2OneD();
 
             //return the success of green frog removing
             return removeFrog(middleSquarePos, motherBoard, origin, dest);
