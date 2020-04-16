@@ -1,142 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18b4e6a4-4bcd-4dc1-852c-07152a3c6ee4" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="18b4e6a4-4bcd-4dc1-852c-07152a3c6ee4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/IvanTse.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/Coordinate2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/MyImageIcon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal/FrogsPosFromProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Icons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoppers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hoppers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hoppers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoppers/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hoppers/View/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoppers/View/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hoppers/View/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoppers/View/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/ButtonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ButtonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Square.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Control/ButtonListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Control/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/View/Board.java" />
-        <option value="$PROJECT_DIR$/src/Control/Controller.java" />
-        <option value="$PROJECT_DIR$/src/View/Square.java" />
-        <option value="$PROJECT_DIR$/src/Control/ButtonListener.java" />
-        <option value="$PROJECT_DIR$/src/Control/MainController.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hoppers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hoppers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hoppers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hoppers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hoppers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hoppers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Control" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1aQB2mPtPACkZ9jkO19l6SObAF6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585469704207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586538188111" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="View" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Board">
+  <component name="RunManager" selected="Application.MainController">
     <configuration name="Board" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="View.Board" />
       <module name="Hoppers" />
@@ -160,12 +102,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Control.MainController" />
+      <module name="Hoppers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Board" />
+      <item itemvalue="Application.MainController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainController" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Board" />
       </list>
     </recent_temporary>
@@ -184,110 +142,139 @@
       <workItem from="1583871270248" duration="3184000" />
       <workItem from="1583946652843" duration="429000" />
       <workItem from="1583950800844" duration="1165000" />
-      <workItem from="1585209351227" duration="2501000" />
+      <workItem from="1585209351227" duration="36679000" />
+      <workItem from="1586328949420" duration="36000" />
+      <workItem from="1586535352416" duration="3268000" />
+      <workItem from="1586577350642" duration="216000" />
+      <workItem from="1586657739351" duration="3261000" />
+      <workItem from="1586703337998" duration="25582000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8652000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20394036" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/GridLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2563">
-          <caret line="324" column="30" selection-start-line="324" selection-start-column="30" selection-end-line="324" selection-end-column="30" />
-          <folding>
-            <element signature="e#4362#4363#0" expanded="true" />
-            <element signature="e#4394#4395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Control/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Control/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Control/ButtonListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="837" y="470" key="#Notifications" timestamp="1586868558014">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="837" y="470" key="#Notifications/0.0.1920.1200@0.0.1920.1200" timestamp="1586868558014" />
+    <state x="448" y="181" key="#Project_Structure" timestamp="1586868713627">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="448" y="181" key="#Project_Structure/0.0.1920.1200@0.0.1920.1200" timestamp="1586868713627" />
+    <state x="575" y="296" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586868690118">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="575" y="296" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1586868690118" />
+    <state x="720" y="501" width="479" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586859285946">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="720" y="501" width="479" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1200@0.0.1920.1200" timestamp="1586859285946" />
+    <state x="698" y="354" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1586979953862">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="698" y="354" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1586979953862" />
+    <state x="704" y="336" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586868634969">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="704" y="336" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1200@0.0.1920.1200" timestamp="1586868634969" />
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom" timestamp="1587054319468">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587054319467" />
+    <state width="1878" height="217" key="GridCell.Tab.0.bottom/0.23.1920.1104@0.23.1920.1104" timestamp="1587016537397" />
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom/0.23.1920.1108@0.23.1920.1108" timestamp="1587054295576" />
+    <state width="1878" height="260" key="GridCell.Tab.0.center" timestamp="1587054319464">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587054319464" />
+    <state width="1878" height="217" key="GridCell.Tab.0.center/0.23.1920.1104@0.23.1920.1104" timestamp="1587016537390" />
+    <state width="1878" height="260" key="GridCell.Tab.0.center/0.23.1920.1108@0.23.1920.1108" timestamp="1587054295575" />
+    <state width="1878" height="260" key="GridCell.Tab.0.left" timestamp="1587054319461">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587054319461" />
+    <state width="1878" height="217" key="GridCell.Tab.0.left/0.23.1920.1104@0.23.1920.1104" timestamp="1587016537389" />
+    <state width="1878" height="260" key="GridCell.Tab.0.left/0.23.1920.1108@0.23.1920.1108" timestamp="1587054295574" />
+    <state width="1878" height="260" key="GridCell.Tab.0.right" timestamp="1587054319466">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587054319466" />
+    <state width="1878" height="217" key="GridCell.Tab.0.right/0.23.1920.1104@0.23.1920.1104" timestamp="1587016537391" />
+    <state width="1878" height="260" key="GridCell.Tab.0.right/0.23.1920.1108@0.23.1920.1108" timestamp="1587054295575" />
+    <state width="1878" height="260" key="GridCell.Tab.1.bottom" timestamp="1587054324264">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1587054324264" />
+    <state width="1878" height="260" key="GridCell.Tab.1.bottom/0.23.1920.1108@0.23.1920.1108" timestamp="1587054295579" />
+    <state width="1878" height="260" key="GridCell.Tab.1.center" timestamp="1587054324263">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587054324263" />
+    <state width="1878" height="260" key="GridCell.Tab.1.center/0.23.1920.1108@0.23.1920.1108" timestamp="1587054295578" />
+    <state width="1878" height="260" key="GridCell.Tab.1.left" timestamp="1587054324263">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1587054324263" />
+    <state width="1878" height="260" key="GridCell.Tab.1.left/0.23.1920.1108@0.23.1920.1108" timestamp="1587054295578" />
+    <state width="1878" height="260" key="GridCell.Tab.1.right" timestamp="1587054324263">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1587054324263" />
+    <state width="1878" height="260" key="GridCell.Tab.1.right/0.23.1920.1108@0.23.1920.1108" timestamp="1587054295579" />
+    <state width="960" height="600" key="XDebugger.FullValuePopup" timestamp="1587053399545">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="960" height="600" key="XDebugger.FullValuePopup/0.0.1920.1200@0.0.1920.1200" timestamp="1587053399545" />
+    <state x="625" y="285" width="670" height="675" key="run.anything.popup" timestamp="1586767814572">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="285" width="670" height="675" key="run.anything.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1586767814572" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1586859335617">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1586859335617" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Control/MainController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
 </project>

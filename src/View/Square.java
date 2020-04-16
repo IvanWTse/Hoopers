@@ -1,42 +1,65 @@
 package View;
 
+import Control.ButtonListener;
+import Control.Coordinate2D;
+import Control.MyImageIcon;
+
 import javax.swing.*;
 
 public class Square extends JButton {
-    private int x_coor;
-    private int y_coor;
-    private String url;
+    private final Coordinate2D coor;
+    private final Board motherBoard;
 
-    public Square(int x_coor, int y_coor, String url) {
-        super(new ImageIcon(url));
-        this.x_coor = x_coor;
-        this.y_coor = y_coor;
-        this.url = url;
+    public Square(Coordinate2D coor, MyImageIcon icon, Board motherBoard) {
+        super(icon);
+        this.coor = coor;
+        this.motherBoard = motherBoard;
+        this.addActionListener(new ButtonListener());
     }
 
-    public int getX_coor() {
-        return x_coor;
+    public Coordinate2D getCoor() {
+        return coor;
     }
 
-    public void setX_coor(int x_coor) {
-        this.x_coor = x_coor;
+    public MyImageIcon getIcon(){
+        return (MyImageIcon)super.getIcon();
     }
 
-    public int getY_coor() {
-        return y_coor;
+    public Board getMotherBoard() {
+        return motherBoard;
     }
 
-    public void setY_coor(int y_coor) {
-        this.y_coor = y_coor;
+    public void select(){
+        switch (getIcon().getRole()){
+            case "redFrog":
+                setIcon(Icons.redFrogSelected);break;
+            case "greenFrog":
+                setIcon(Icons.greenFrogSelected);break;
+            case "redFrogSelected":
+                setIcon(Icons.redFrog);break;
+            case "greenFrogSelected":
+                setIcon(Icons.greenFrog);break;
+            default:
+                try {
+                    throw new Exception("Not a selectable square");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+        }
     }
 
-    public String getUrl() {
-        return url;
+    public boolean isFrog(){
+        return getIcon().getRole().equals("redFrog") || getIcon().getRole().equals("greenFrog");
     }
 
-    public void setUrl(String url) {
-        this.url = url;
-        setIcon(new ImageIcon(url));
+    public void set2Pad(){
+        if(!getIcon().getRole().equals("water"))
+            setIcon(Icons.pad);
+        else
+            try {
+                throw new Exception("Not a pad");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
     }
-
 }
