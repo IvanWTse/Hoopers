@@ -19,6 +19,12 @@ public class MainController {
         Coordinate2D originCoor = origin.getCoor();
         Coordinate2D destCoor = dest.getCoor();
 
+        //Check if the dest is a pad
+        if(!dest.getIcon().getRole().equals("pad")){
+            origin.select();
+            return false;
+        }
+
         //Horizontal one step moving check
         if(((originCoor.getY_pos() == destCoor.getY_pos()&&Math.abs(originCoor.getX_pos()-destCoor.getX_pos()) == 2)
                 || (originCoor.getX_pos() == destCoor.getX_pos() && Math.abs(originCoor.getY_pos() - destCoor.getY_pos()) == 2)) && dest.getIcon().getRole().equals("pad")) {
@@ -46,7 +52,7 @@ public class MainController {
         else if(Math.abs(originCoor.getX_pos()-destCoor.getX_pos()) == 4 && originCoor.getY_pos() == destCoor.getY_pos()){
 
             //The pos of the frog between
-            int middleSquarePos = (new Coordinate2D(originCoor.getX_pos()+destCoor.getX_pos()/2,originCoor.getY_pos()).convert2OneD());
+            int middleSquarePos = (new Coordinate2D((originCoor.getX_pos()+destCoor.getX_pos())/2,originCoor.getY_pos()).convert2OneD());
 
             //return the success of green frog removing
             return removeFrog(middleSquarePos, motherBoard, origin, dest);
@@ -148,11 +154,12 @@ public class MainController {
 
     public void nextLevel() {
         level += 1;
-
+        //Alert to the next level
+        JOptionPane.showMessageDialog(motherBoard,"Congrats! Here's to the next "+ level + "/40 level. ");
         //get the squares of the next level from modal
         ArrayList<Integer> frogsPos = FrogsPosFromProperties.byLevel(level);
         if(frogsPos == null){
-            JOptionPane.showMessageDialog(motherBoard,"You have passed all fifty levels");
+            JOptionPane.showMessageDialog(motherBoard,"You have passed all forty levels");
             System.exit(0);
         }
         int level1RedFrogAt = frogsPos.remove(0);

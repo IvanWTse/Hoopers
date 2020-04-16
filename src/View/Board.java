@@ -9,14 +9,14 @@ public class Board extends JFrame {
 
     private final MainController controller;
     private Square[] squares;
-    private Square selectSquare = null;
+    private Square selectSquare;
     private int frogsLeft;
 
     public Board(MainController controller){
         this.controller = controller;
 
         setTitle("Hoppers - Level " + controller.getLevel() + " - " + frogsLeft + " Green Frogs Left");
-        setSize(1000, 1000);
+        setSize(755, 778);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
@@ -60,14 +60,13 @@ public class Board extends JFrame {
     public void newGame(Square[] squares, int frogsLeft){
         this.frogsLeft = frogsLeft;
         this.squares = squares;
+        this.selectSquare = null;
 
-//        removeAll();
         setTitle("Hoppers - Level " + controller.getLevel() + " - " + frogsLeft + " Green Frogs Left");
-        JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(5,5));
+        JPanel panel = new JPanel(new GridLayout(5,5));
         for(Square sq:squares)
             panel.add(sq);
-        add(panel);
+        setContentPane(panel);
         setVisible(true);
     }
     
