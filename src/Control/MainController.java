@@ -154,14 +154,14 @@ public class MainController {
 
     public void nextLevel() {
         level += 1;
-        //Alert to the next level
-        JOptionPane.showMessageDialog(motherBoard,"Congrats! Here's to the next "+ level + "/40 level. ");
         //get the squares of the next level from modal
         ArrayList<Integer> frogsPos = FrogsPosFromProperties.byLevel(level);
         if(frogsPos == null){
             JOptionPane.showMessageDialog(motherBoard,"You have passed all forty levels");
             System.exit(0);
         }
+        //Alert to the next level
+        JOptionPane.showMessageDialog(motherBoard,"Congrats! Here's to the next "+ level + "/40 level. ");
         int level1RedFrogAt = frogsPos.remove(0);
         int[] level1GreenFrogsAt  = frogsPos.stream().mapToInt(i -> i).toArray();
         motherBoard.newGame(squaresGenerator(level1GreenFrogsAt,level1RedFrogAt),level1GreenFrogsAt.length);
