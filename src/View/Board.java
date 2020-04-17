@@ -5,13 +5,23 @@ import Control.MainController;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * @author IvanTse
+ * @version 1.0
+ * @description The board which is extended from JFrame
+ */
 public class Board extends JFrame {
 
-    private final MainController controller;
-    private Square[] squares;
-    private Square selectSquare;
-    private int frogsLeft;
+    private final MainController controller; /* The object of the controller for callback */
+    private Square[] squares; /* All squares object */
+    private Square selectSquare; /* The object of the selected square */
+    private int frogsLeft; /* The number of left frogs */
 
+    /**
+     * Constructor function
+     * Title, frame size and close operation is set here.
+     * @param controller The object of the controller which initialized this board
+     */
     public Board(MainController controller){
         this.controller = controller;
 
@@ -36,6 +46,12 @@ public class Board extends JFrame {
         this.selectSquare = selectSquare;
     }
 
+    /**
+     * Decrease a frog when this function is called.
+     * Called when a frog was moved.
+     * @return the number of rest frogs
+     * @exception RuntimeException when the function is called with no frogs left
+     */
     public int decreaseAFrog() {
         if(frogsLeft <= 0)
             throw new RuntimeException();
@@ -44,6 +60,11 @@ public class Board extends JFrame {
         return frogsLeft;
     }
 
+    /**
+     * Begin a new game, with new squares on the board
+     * @param squares new squares
+     * @param frogsLeft the number of green frogs in the squares in above parameter
+     */
     public void newGame(Square[] squares, int frogsLeft){
         this.frogsLeft = frogsLeft;
         this.squares = squares;

@@ -7,7 +7,19 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * @author IvanTse
+ * @version 1.0
+ * @description a listener handles everything with the button
+ */
 public class ButtonListener implements ActionListener {
+    /**
+     * 1. Check if the button clicked is a square, in order to make sure object casting would work properly
+     * 2. Two situations:
+     *      2.1 There is no selected square. Check if the event square is a frog, yes then select the square
+     *      2.2 There is a selected square. It is a moving action, from the selected square to the event square,
+     *          then check if the moving is legal, and execute it. After moving, set SelectSquare pointer to null.
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
         //Security check

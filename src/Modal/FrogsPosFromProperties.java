@@ -5,10 +5,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Properties;
-
+/**
+ * @author IvanTse
+ * @version 1.0
+ * @description Get the 1D position of the red frog and green frogs from Java properties file.
+ * */
 public class FrogsPosFromProperties {
 
-    //The first element is the pos of red frog
+    /**
+     * Get the positions of frogs by the level number, and saving into an ArrayList.
+     * @param level The level number 1..40
+     * @return ArrayList, the first element is the pos of the red frog, rest are green frogs'
+     */
     public static ArrayList<Integer> byLevel(int level) {
         if(level > 40)
             return null;

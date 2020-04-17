@@ -2,8 +2,14 @@ package View;
 
 import Control.MyImageIcon;
 
+import java.util.Objects;
+
+/**
+ * @author IvanTse
+ * @description contains six static objects of six icons
+ */
 public class Icons{
-    private final static String rootUrl = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+    private final static String rootUrl = Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource("")).getPath();
 
     public final static MyImageIcon greenFrog = new MyImageIcon(rootUrl+"GreenFrog.png","greenFrog");
     public final static MyImageIcon greenFrogSelected = new MyImageIcon(rootUrl+"GreenFrog2.png","greenFrogSelected");
