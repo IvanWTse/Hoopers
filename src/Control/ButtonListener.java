@@ -38,7 +38,7 @@ public class ButtonListener implements ActionListener {
         //handle a moving check
         else{
             //Check the moving is legal and moving the squares in the checking function
-            if(!MainController.legalMoving(motherBoard.getSelectSquare(), eventSquare, motherBoard)){
+            if(!MainController.moving(motherBoard.getSelectSquare(), eventSquare, motherBoard)){
                 //alert an illegal moving
                 JOptionPane.showMessageDialog(motherBoard,"Illegal moving");
             }

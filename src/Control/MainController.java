@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class MainController {
     //Static functions part
-    public static boolean legalMoving(Square origin, Square dest, Board motherBoard){
+    public static boolean moving(Square origin, Square dest, Board motherBoard){
         //Security check
         if(origin == null || dest == null || motherBoard == null)
             throw new NullPointerException();
@@ -101,7 +101,7 @@ public class MainController {
             origin.select();
             moveIcon(origin,dest);
             if(motherBoard.decreaseAFrog() == 0)
-                motherBoard.gameWon();
+                motherBoard.getController().nextLevel();
 
             return true;
 
@@ -135,24 +135,17 @@ public class MainController {
     private int level;
 
     public MainController(){
-        this.level = 1;
+        this.level = 0;
 
-        //get the squares of the first level from modal
-        ArrayList<Integer> frogsPos = FrogsPosFromProperties.byLevel(1);
-        assert frogsPos != null;
-        int level1RedFrogAt = frogsPos.remove(0);
-        int[] level1GreenFrogsAt  = frogsPos.stream().mapToInt(i -> i).toArray();
-
-//        motherBoard = new Board(squaresGenerator(level1GreenFrogsAt,level1RedFrogAt),level1GreenFrogsAt.length, this);
         motherBoard = new Board(this);
-        motherBoard.newGame(squaresGenerator(level1GreenFrogsAt,level1RedFrogAt),level1GreenFrogsAt.length);
+        nextLevel();
     }
 
     public int getLevel(){
         return level;
     }
 
-    public void nextLevel() {
+    private void nextLevel() {
         level += 1;
         //get the squares of the next level from modal
         ArrayList<Integer> frogsPos = FrogsPosFromProperties.byLevel(level);
@@ -161,7 +154,7 @@ public class MainController {
             System.exit(0);
         }
         //Alert to the next level
-        JOptionPane.showMessageDialog(motherBoard,"Congrats! Here's to the next "+ level + "/40 level. ");
+        JOptionPane.showMessageDialog(motherBoard,"Congrats! Here's to level "+ level + "/40. ");
         int level1RedFrogAt = frogsPos.remove(0);
         int[] level1GreenFrogsAt  = frogsPos.stream().mapToInt(i -> i).toArray();
         motherBoard.newGame(squaresGenerator(level1GreenFrogsAt,level1RedFrogAt),level1GreenFrogsAt.length);
